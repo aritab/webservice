@@ -22,7 +22,7 @@ class sem{
   private:
   sem_t m_sem;
 };
-class lcoker{
+class locker{
   public:
   locker(){
     if(pthread_mutex_init(&m_mutex,NULL)!=0){
